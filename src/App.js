@@ -14,10 +14,12 @@ class App extends Component {
           <label>Email</label>
           <input type="email" id="email" name="email" placeholder="Email" />
 
-          <label>Birth date</label>
-          <input type="birth date" name="birth date" placeholder="Birth date" />
+          <label>Birthdate</label>
+          <input type="birthdate" name="birthdate" placeholder="Birthdate" />
 
+          <br></br>
           <label>I agree to be contacted via email</label>
+          <br></br>
           <input type="submit" value="Clear" />
           <input type="submit" value="Submit" />
         </form>
